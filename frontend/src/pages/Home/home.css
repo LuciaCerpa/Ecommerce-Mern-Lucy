@@ -1,0 +1,57 @@
+.category {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+}
+
+.categoryflex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.categoryName {
+    visibility: hidden;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.categoryFlex img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 128, 119);
+    transition: all .3s;
+    box-shadow: 1px 2px 3px purple;
+}
+
+.categoryFlex img:hover {
+    transform: rotate(-15deg) scale(1.1);
+    border-color: purple;
+    filter: blur(1px);
+}
+
+.categoryFlex:hover h3 {
+    visibility: visible;
+    position: relative;
+    border-color: purple;
+    color: purple;    
+    animation: categories 1s ease-out;
+    bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.766);
+}
+
+@keyframes categories {
+    from {
+        color: transparent;
+    }
+
+    to {
+        text-shadow: 0;
+        color:aqua
+    }
+}

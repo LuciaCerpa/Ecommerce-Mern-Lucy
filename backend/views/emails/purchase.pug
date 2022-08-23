@@ -1,0 +1,13 @@
+extends base
+
+block emailContent
+  p Congrats!!!
+  p Here are your purchase's details!!
+  div(class="purchase-card")
+    each product in productsInCart
+      div(class="purchase-card__content") 
+        h2 #{product.productId.title}
+        p Price: #{product.productId.price}
+        p Quantity: #{product.quantity}
+        h3 Total: #{totalPrice}
+        hr

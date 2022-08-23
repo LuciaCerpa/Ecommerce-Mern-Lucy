@@ -1,0 +1,42 @@
+.cart{
+    width: 100%;
+}
+
+.buttonCartDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.products{
+    
+}
+
+.add-button{
+    background-color: aquamarine;
+    color: purple;
+    border: none;
+    box-shadow: 2px 2px 4px gray;
+    width: 30%;
+    justify-self: flex-end;
+}
+
+.add-button:hover{
+    background-color: purple;
+    color:aquamarine;
+    border-radius: 10px;
+    transition: all .5seg;
+}
+
+.subTotal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.total{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+

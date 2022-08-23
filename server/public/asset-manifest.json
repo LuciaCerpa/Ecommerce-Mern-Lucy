@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7db45d96.css",
+    "main.js": "/static/js/main.71bf3325.js",
+    "static/media/mano-dibujando-logo.png": "/static/media/mano-dibujando-logo.00bb29a27ccf2d96c206.png",
+    "static/media/fondo.png": "/static/media/fondo.e47992e40bf79dab56b6.png",
+    "index.html": "/index.html",
+    "main.7db45d96.css.map": "/static/css/main.7db45d96.css.map",
+    "main.71bf3325.js.map": "/static/js/main.71bf3325.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7db45d96.css",
+    "static/js/main.71bf3325.js"
+  ]
+}

@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.product-btn{
+  margin-top: 15px;
+width: 100%;
+}
+
+.product-btn button {
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  color: #ffffff;
+  box-shadow: 0 0 5px black;
+  transition: all .5s;
+
+
+}
+
+.product-btn button:hover{
+  background-color: #ffffff;
+  color: black;
+}
+
+
+.plusMinusItem{
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+.plus, .minus{
+  cursor: pointer;
+}
+
+.cart-quantity{
+  font-size: 20px;
+}
+
+.spin {
+  margin: 20px 0;
+  margin-bottom: 20px;
+  padding: 30px 50px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  transform: scale(5);
+}
+
+
